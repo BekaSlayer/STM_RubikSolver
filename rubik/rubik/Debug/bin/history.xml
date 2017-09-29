@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="5.4.1 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=rubik.map -O0 --gc-sections -LD:\CooCox\CoIDE\configuration\ProgramData\rubik -TD:\CooCox\CoIDE\configuration\ProgramData\rubik/arm-gcc-link.ld -g">
+      <target file="rubik.elf" lastModified="15ecc5e9d3d">
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="15e95ea3239"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="15e95ea32c0"/>
+         <source file="..\obj\main.o" lastModified="15ecc5e9b4a"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="15e95ea3410"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="15e95ea34a9"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="15e95ea352d"/>
+         <source file="..\obj\stm32f4xx_exti.o" lastModified="15e95ea35f5"/>
+         <source file="..\obj\misc.o" lastModified="15e95ea3679"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="15e95ea378d"/>
+      </target>
+   </processor>
+</history>

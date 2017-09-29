@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\rubik\cmsis_lib -I..\..\..\workspace\rubik\cmsis -I..\..\..\workspace\rubik\cmsis_lib\include -I..\..\..\workspace\rubik\cmsis_boot -I..\..\..\workspace\rubik -I..\..\..\workspace">
+      <target file="stm32f4xx_gpio.o" lastModified="15e95ea34a9">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="15b7c991190"/>
+      </target>
+      <target file="stm32f4xx_tim.o" lastModified="15e95ea378d">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="15b7c994840"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="15e95ea352d">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="15c3fad3170"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="15e95ea32c0">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="15b7bc21280"/>
+      </target>
+      <target file="stm32f4xx_usart.o" lastModified="15e95ea3239">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_usart.c" lastModified="15b7bc21280"/>
+      </target>
+      <target file="stm32f4xx_exti.o" lastModified="15e95ea35f5">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_exti.c" lastModified="15b7c992900"/>
+      </target>
+      <target file="main.o" lastModified="15ecc5e9b4a">
+         <source file="..\..\..\main.c" lastModified="15ecc5e8fcb"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="15e95ea3410">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="15b7bc21280"/>
+      </target>
+      <target file="misc.o" lastModified="15e95ea3679">
+         <source file="..\..\..\cmsis_lib\source\misc.c" lastModified="15b7c999e30"/>
+      </target>
+   </processor>
+</history>
